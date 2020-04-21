@@ -105,15 +105,17 @@ function Layout({ children }) {
                 <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">THE FASTEST PATH TO BETTER TRAINING</h2>
                 <h2 className="w-full my-2 text-2xl leading-tight text-center text-gray-800">Learnovate empowers users to manage content and build course learning experiences. It allows seamless virtual interaction of all administrators, trainers and learners.</h2>
                 
-                <div className="w-full mb-4">	
+<div className="w-full mb-4">	
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
               
                 <div className="flex flex-wrap">
-                  <div className="w-5/6 sm:w-1/3 p-6">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Content friendly</h3>
-                    <p className="text-gray-600 mb-8">Build courses by re-using Presentations or Videos you already have or by consuming content from web-sources. Edit your content as easy as editing a document file.<br /><br />
-                                                          
+                  <div className="w-5/6 sm:w-1/2 p-6">
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Built in GatsbyJS</h3>
+                    <p className="text-gray-600 mb-8">Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.<br /><br />
+                    
+                    Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+                    
                   </div>
                   <div className="w-full sm:w-1/2 p-6">
                     <svg className="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
@@ -212,11 +214,12 @@ function Layout({ children }) {
                   </div>
                   <div className="w-full sm:w-1/2 p-6 mt-6">
                     <div className="align-middle">
-                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Live/Video conferencing</h3>
-                      <p className="text-gray-600 mb-8">Schedule and conduct webinars or virtual meetings online and live conferences within Learnovate LMS Framework. Apply blended learning technique.<br /><br />
-
+                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Styled with Tailwind CSS</h3>
+                      <p className="text-gray-600 mb-8">Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.<br /><br />
+                      Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
                     </div>
                   </div>
+
                 </div>
               </div>
             </section>
@@ -286,62 +289,7 @@ function Layout({ children }) {
                   </div>
                 </div>
                 
- 
-                <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                  <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                    <a href="https://www.gatsbyjs.org/" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Blazing Fast</p>
-                      <div className="w-full font-bold text-xl text-gray-800 px-6">Static Progressive Web App</div>
-                      <p className="text-gray-800 text-base px-6 mb-5">
-                        Why Gatsby? Gatsby is a static PWA (Progressive Web App) generator. Gatsby loads only the critical HTML, CSS, data, and JavaScript so your site loads as fast as possible. 
-                      </p>
-                    </a>
-                  </div>
-                  <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                    <div className="flex items-center justify-start">
-                      <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-                    </div>
-                  </div>
-                </div>
                 
-                
-                
-                <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                  <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                    <a href="https://tailwindcss.com/" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Tailwind is different</p>
-                      <div className="w-full font-bold text-xl text-gray-800 px-6">State-of-the-art CSS Framework</div>
-                      <p className="text-gray-800 text-base px-6 mb-5">
-                        Instead of opinionated predesigned components, Tailwind provides low-level utility classes that let you build completely custom designs without ever leaving your HTML.
-                      </p>
-                    </a>
-                  </div>
-                  <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                    <div className="flex items-center justify-center">
-                      <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-                    </div>
-                  </div>
-                </div>
-                
-                
-                
-                <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                  <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                    <a href="#" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Open-Source</p>
-                      <div className="w-full font-bold text-xl text-gray-800 px-6">Coded by <a href="https://twitter.com/Sm0keDev">Sm0ke</a> </div>
-                      <p className="text-gray-800 text-base px-6 mb-5">
-                        The source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.
-                      </p>
-                    </a>
-                  </div>
-                  <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                    <div className="flex items-center justify-end">
-                      <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action</button>
-                    </div>
-                  </div>
-                </div>
-  
               </div>
 
             </section>
