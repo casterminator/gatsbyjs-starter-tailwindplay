@@ -49,6 +49,10 @@ function Layout({ children }) {
                     <li className="mr-3">
                       <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="https://docs.google.com/forms/d/e/1FAIpQLSeg30NixgJLMHlfStf1VuDSJEiQbRTvVu9Q8ooygLR4YhpKzQ/viewform?vc=0&c=0&w=1" target="_blank">Google Form</a>
                     </li>
+                  <form action={data.site.siteMetadata.github}>
+                    <button type="submit" id="navAction" 
+                            className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Get Sources</button>
+                  </form>
                   </ul>
                 </div>
               </div>
