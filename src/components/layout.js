@@ -68,7 +68,7 @@ function Layout({ children }) {
                     We are the complete Learning Management System solution that helps you train your employees online in an easy and fun way!
                   </p>
 
-                  <form action={data.site.siteMetadata.github}>
+                  <form action={href="https://docs.google.com/forms/d/e/1FAIpQLSeg30NixgJLMHlfStf1VuDSJEiQbRTvVu9Q8ooygLR4YhpKzQ/viewform?vc=0&c=0&w=1" target="_blank"}>
                     <button type="submit" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Discover About Us</button>
                   </form>
 
