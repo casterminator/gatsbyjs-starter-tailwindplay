@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Easy LMS for everyone`,
-    description: `GatsbyJS Starter styled with Tailwind CSS`,
+    description: `Easy LMS for everyone`,
     author: `@Sm0keDev`,
     github: `https://github.com/app-generator/gatsbyjs-starter-tailwindplay`,
     blog: `https://blog.appseed.us/tag/gatsbyjs`,
