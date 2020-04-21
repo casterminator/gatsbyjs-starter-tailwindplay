@@ -73,7 +73,7 @@ function Layout({ children }) {
                   <p className="uppercase tracking-loose w-full">Learnovate</p>
                   <h1 className="my-4 text-5xl font-bold leading-tight">Let's learn and innovate today.</h1>
                   <p className="leading-normal text-2xl mb-8">
-                    {data.site.siteMetadata.title} - We are the complete Learning Management System solution that helps you train your employees online in an easy and fun way!
+                  We are the complete Learning Management System solution that helps you train your employees online in an easy and fun way!
                   </p>
 
                   <form action={data.site.siteMetadata.github}>
@@ -110,7 +110,7 @@ function Layout({ children }) {
             <section className="bg-white border-b py-8">
               <div className="container max-w-5xl mx-auto m-8">
                 <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">The fastest path to better training</h2>
-                <h2 className="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800">Learnovate empowers users to manage content and build course learning experiences. It allows seamless virtual interaction of all administrators, trainers and learners.</h2>
+                <h2 className="w-full my-2 text-2xl leading-tight text-center text-gray-800">Learnovate empowers users to manage content and build course learning experiences. It allows seamless virtual interaction of all administrators, trainers and learners.</h2>
                 <div className="w-full mb-4">	
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
