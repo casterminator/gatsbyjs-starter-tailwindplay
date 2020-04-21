@@ -30,7 +30,7 @@ function Layout({ children }) {
                   
                 <div className="pl-4 flex items-center">
                   <a className="toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl text-gray-800"  href="#"> 
-                   <img src={Logo} alt="" data-position="25% 25%" />Learnovate
+                   <img src='src/images/learnovate.png' alt="" data-position="25% 25%" />Learnovate
                   </a>
                 </div>
 
