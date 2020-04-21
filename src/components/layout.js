@@ -110,12 +110,10 @@ function Layout({ children }) {
                 </div>
               
                 <div className="flex flex-wrap">
-                  <div className="w-5/6 sm:w-1/2 p-6">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Built in GatsbyJS</h3>
-                    <p className="text-gray-600 mb-8">Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.<br /><br />
-                    
-                    Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
-                    
+                  <div className="w-5/6 sm:w-1/3 p-6">
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Content friendly</h3>
+                    <p className="text-gray-600 mb-8">Build courses by re-using Presentations or Videos you already have or by consuming content from web-sources. Edit your content as easy as editing a document file.<br /><br />
+                                                          
                   </div>
                   <div className="w-full sm:w-1/2 p-6">
                     <svg className="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
@@ -214,11 +212,17 @@ function Layout({ children }) {
                   </div>
                   <div className="w-full sm:w-1/2 p-6 mt-6">
                     <div className="align-middle">
-                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Styled with Tailwind CSS</h3>
-                      <p className="text-gray-600 mb-8">Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.<br /><br />
-                      Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Live/Video conferencing</h3>
+                      <p className="text-gray-600 mb-8">Schedule and conduct webinars or virtual meetings online and live conferences within Learnovate LMS Framework. Apply blended learning technique.<br /><br />
+
                     </div>
                   </div>
+    
+                    <div className="align-middle">
+                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Live/Video conferencing</h3>
+                      <p className="text-gray-600 mb-8">Schedule and conduct webinars or virtual meetings online and live conferences within Learnovate LMS Framework. Apply blended learning technique.<br /><br />
+
+                    </div>
 
                 </div>
               </div>
