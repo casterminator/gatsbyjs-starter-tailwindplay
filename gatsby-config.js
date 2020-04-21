@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `TailwindPay`,
+    title: `Easy LMS for everyone`,
     description: `GatsbyJS Starter styled with Tailwind CSS`,
     author: `@Sm0keDev`,
     github: `https://github.com/app-generator/gatsbyjs-starter-tailwindplay`,
