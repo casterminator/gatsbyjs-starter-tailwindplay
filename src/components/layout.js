@@ -103,7 +103,8 @@ function Layout({ children }) {
             <section className="bg-white border-b py-8">
               <div className="container max-w-5xl mx-auto m-8">
                 <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">THE FASTEST PATH TO BETTER TRAINING</h2>
-                <p className="text-gray-600 mb-8">Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.<br /><br />
+                <h2 className="w-full my-2 text-1xl leading-tight text-center text-gray-800">Learnovate empowers users to manage content and build course learning experiences. It allows seamless virtual interaction of all administrators, trainers and learners.</h2>
+                
                 <div className="w-full mb-4">	
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
