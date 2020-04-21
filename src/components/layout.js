@@ -217,13 +217,6 @@ function Layout({ children }) {
 
                     </div>
                   </div>
-    
-                    <div className="align-middle">
-                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Live/Video conferencing</h3>
-                      <p className="text-gray-600 mb-8">Schedule and conduct webinars or virtual meetings online and live conferences within Learnovate LMS Framework. Apply blended learning technique.<br /><br />
-
-                    </div>
-
                 </div>
               </div>
             </section>
