@@ -55,7 +55,7 @@ function Layout({ children }) {
                   </ul>
                   <form action={data.site.siteMetadata.github}>
                     <button type="submit" id="navAction" 
-                            className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Get Sources</button>
+                            className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Discover About Us</button>
                   </form>
 
                 </div>
