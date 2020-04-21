@@ -10,7 +10,7 @@ function IndexPage() {
     
       <SEO
         title="Learnovate"
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`learn`, `innovate`, `react`, `Learnovate`]}
       />
 
     </Layout>
