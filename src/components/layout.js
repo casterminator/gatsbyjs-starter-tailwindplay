@@ -47,13 +47,14 @@ function Layout({ children }) {
                 <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
                   <ul className="list-reset lg:flex justify-end flex-1 items-center">
                     <li className="mr-3">
-                      <a className="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+                      <button type="submit" id="navAction"
+                              className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSeg30NixgJLMHlfStf1VuDSJEiQbRTvVu9Q8ooygLR4YhpKzQ/viewform?vc=0&c=0&w=1">Inquire Now Na!</button>
                     </li>
                     <li className="mr-3">
                       <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
                     </li>
                   </ul>
-                  <form action={https://docs.google.com/forms/d/e/1FAIpQLSeg30NixgJLMHlfStf1VuDSJEiQbRTvVu9Q8ooygLR4YhpKzQ/viewform?vc=0&c=0&w=1}>
+                  <form action={data.site.siteMetadata.github}>
                     <button type="submit" id="navAction" 
                             className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">INQUIRE NOW</button>
                   </form>
